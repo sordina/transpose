@@ -16,7 +16,7 @@ Usage:
 
     > transpose -h
 
-    Usage: transpose [DELIM_IN] [DELIM_OUT] [-h|--help]
+    Usage: transpose [-h|--help] [--] [DELIM_IN] [DELIM_OUT]
 
 
 You can do this with `hoe` if you're so inclined...
