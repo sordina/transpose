@@ -21,4 +21,4 @@ go' _      = help >> exitFailure
 
 process i o = unlines . map (intercalate o) . transpose . map (splitOn i) . lines
 
-help = putStrLn "Usage: transpose [DELIM_IN] [DELIM_OUT] [-h|--help]"
+help = putStrLn "Usage: transpose [-h|--help] [--] [DELIM_IN] [DELIM_OUT]"
