@@ -18,7 +18,9 @@ Usage:
 
     Usage: transpose [-h|--help] [--] [DELIM_IN] [DELIM_OUT]
 
-
 You can do this with `hoe` if you're so inclined...
 
     :'<,'>!hoe 'unlines . map unwords . transpose . map (splitOn ",") . lines' | tabulate ' '
+
+
+In action: <https://youtu.be/yBqKBg-XEsc>
